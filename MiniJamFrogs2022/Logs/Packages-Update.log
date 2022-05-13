@@ -48,3 +48,16 @@ The following packages were added:
 The following packages were updated:
   com.unity.2d.animation from version 6.0.1 to 6.0.3
   com.unity.2d.psdimporter from version 5.0.1 to 5.0.3
+
+=== Fri May 13 11:52:19 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ads@3.7.1
+  com.unity.analytics@3.5.3
+  com.unity.purchasing@3.2.1
+  com.unity.xr.legacyinputhelpers@2.1.7
+The following packages were updated:
+  com.unity.ide.rider from version 3.0.6 to 3.0.7
