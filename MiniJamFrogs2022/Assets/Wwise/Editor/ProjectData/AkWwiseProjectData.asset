@@ -66,8 +66,91 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f7790a14d1277842822125244a6b996b
     GuidInternal: 
-    m_lastTime: -8585491382921663330
+    m_lastTime: -8585491363065973876
     List: []
+  - PhysicalPath: SoundBanks\Music.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f7790a14d1277842822125244a6b996b
+    - ElementName: Music
+      ObjectType: 12
+      guid: 1280ebc60ec5af4c9ffe9e6d7c4130dd
+    ParentPath: SoundBanks\Default Work Unit\Music
+    guid: 1280ebc60ec5af4c9ffe9e6d7c4130dd
+    GuidInternal: 
+    m_lastTime: -8585491363065884176
+    List:
+    - name: Music
+      guid: 914916433a81454a8b5e8a7568dbd3b2
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f7790a14d1277842822125244a6b996b
+      - ElementName: Music
+        ObjectType: 12
+        guid: 1280ebc60ec5af4c9ffe9e6d7c4130dd
+      - ElementName: Music
+        ObjectType: 7
+        guid: 914916433a81454a8b5e8a7568dbd3b2
+      Path: SoundBanks\Default Work Unit\Music\Music
+  - PhysicalPath: SoundBanks\SFX.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f7790a14d1277842822125244a6b996b
+    - ElementName: SFX
+      ObjectType: 12
+      guid: f72b7a5ddafa3c4f80e99917821fa732
+    ParentPath: SoundBanks\Default Work Unit\SFX
+    guid: f72b7a5ddafa3c4f80e99917821fa732
+    GuidInternal: 
+    m_lastTime: -8585491363065924043
+    List:
+    - name: Environment
+      guid: 25d453e3740ef8459b724409942eed67
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f7790a14d1277842822125244a6b996b
+      - ElementName: SFX
+        ObjectType: 12
+        guid: f72b7a5ddafa3c4f80e99917821fa732
+      - ElementName: Environment
+        ObjectType: 7
+        guid: 25d453e3740ef8459b724409942eed67
+      Path: SoundBanks\Default Work Unit\SFX\Environment
+    - name: SFX
+      guid: 4534e8998802784ea773bacec1cb5f1c
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f7790a14d1277842822125244a6b996b
+      - ElementName: SFX
+        ObjectType: 12
+        guid: f72b7a5ddafa3c4f80e99917821fa732
+      - ElementName: SFX
+        ObjectType: 7
+        guid: 4534e8998802784ea773bacec1cb5f1c
+      Path: SoundBanks\Default Work Unit\SFX\SFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +222,7 @@ MonoBehaviour:
     m_lastTime: -8585491382921125131
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

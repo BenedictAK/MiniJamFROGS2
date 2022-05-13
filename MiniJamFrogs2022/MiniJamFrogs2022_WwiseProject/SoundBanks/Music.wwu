@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6EB8012-C50E-4CAF-9FFE-9E6D7C4130DD}" SchemaVersion="103" RootDocumentID="{140A79F7-27D1-4278-8221-25244A6B996B}" ParentDocumentID="{140A79F7-27D1-4278-8221-25244A6B996B}">
+	<SoundBanks>
+		<WorkUnit Name="Music" ID="{C6EB8012-C50E-4CAF-9FFE-9E6D7C4130DD}" OwnerID="{140A79F7-27D1-4278-8221-25244A6B996B}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{43164991-813A-4A45-8B5E-8A7568DBD3B2}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

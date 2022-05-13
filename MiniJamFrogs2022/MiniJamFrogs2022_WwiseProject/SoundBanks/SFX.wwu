@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D7A2BF7-FADA-4F3C-80E9-9917821FA732}" SchemaVersion="103" RootDocumentID="{140A79F7-27D1-4278-8221-25244A6B996B}" ParentDocumentID="{140A79F7-27D1-4278-8221-25244A6B996B}">
+	<SoundBanks>
+		<WorkUnit Name="SFX" ID="{5D7A2BF7-FADA-4F3C-80E9-9917821FA732}" OwnerID="{140A79F7-27D1-4278-8221-25244A6B996B}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{99E83445-0288-4E78-A773-BACEC1CB5F1C}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Environment" ID="{E353D425-0E74-45F8-9B72-4409942EED67}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
