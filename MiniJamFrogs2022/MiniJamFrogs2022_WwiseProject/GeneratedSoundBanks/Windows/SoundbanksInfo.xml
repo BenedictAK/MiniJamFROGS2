@@ -11,25 +11,69 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="4021984795">
-			<ObjectPath>\SoundBanks\Default Work Unit\SFX\SFX</ObjectPath>
+		<SoundBank Id="393239870" Language="SFX" Hash="2178893838">
+			<ObjectPath>\SoundBanks\SFX\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="35801126" Name="GetPoints" ObjectPath="\Events\PC_Frog\GetPoints" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2874639328" Name="Healthy" ObjectPath="\Events\PC_Frog\Healthy" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1467097536" Name="PC_Healthy" ObjectPath="\States\Frog_States\Poisoned\PC_Healthy"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1467164614" Name="Poisoned" ObjectPath="\Events\PC_Frog\Poisoned" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="626737702" Name="PC_Poisoned" ObjectPath="\States\Frog_States\Poisoned\PC_Poisoned"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1041311963" Name="PoweredDown" ObjectPath="\Events\PC_Frog\PoweredDown" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3783295931" Name="PC_PoweredDown" ObjectPath="\States\Frog_States\PowerUp\PC_PoweredDown"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4231327868" Name="PoweredUp" ObjectPath="\Events\PC_Frog\PoweredUp" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="51599964" Name="PC_PoweredUp" ObjectPath="\States\Frog_States\PowerUp\PC_PoweredUp"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3165878815" Name="TongueClick" ObjectPath="\Events\PC_Frog\TongueClick" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="51599964" Name="PC_PoweredUp" ObjectPath="\States\Frog_States\PowerUp\PC_PoweredUp" GUID="{830FBB2A-6E8F-4CC6-96DF-0786861C9D2E}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="626737702" Name="PC_Poisoned" ObjectPath="\States\Frog_States\Poisoned\PC_Poisoned" GUID="{FB57DB0F-6375-491F-818D-2D008BA15A95}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1467097536" Name="PC_Healthy" ObjectPath="\States\Frog_States\Poisoned\PC_Healthy" GUID="{BC22916F-2C16-42AA-A771-243A7FF12353}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3783295931" Name="PC_PoweredDown" ObjectPath="\States\Frog_States\PowerUp\PC_PoweredDown" GUID="{91A7C604-ECEB-4D12-AE99-42305E7FC863}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1229948536" Language="SFX" Hash="3387212696">
-			<ObjectPath>\SoundBanks\Default Work Unit\SFX\Environment</ObjectPath>
+		<SoundBank Id="1229948536" Language="SFX" Hash="1600032606">
+			<ObjectPath>\SoundBanks\SFX\Environment</ObjectPath>
 			<ShortName>Environment</ShortName>
 			<Path>Environment.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2861951651" Name="FliesBuzz" ObjectPath="\Events\Environment\FliesBuzz" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3979205277">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3012300438">
-			<ObjectPath>\SoundBanks\Default Work Unit\Music\Music</ObjectPath>
+		<SoundBank Id="3991942870" Language="SFX" Hash="24935106">
+			<ObjectPath>\SoundBanks\Music\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2322231365" Name="Gameplay_Music" ObjectPath="\Events\Music\Gameplay_Music" DurationType="OneShot" DurationMin="1." DurationMax="1."/>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

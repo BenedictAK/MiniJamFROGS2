@@ -11,6 +11,46 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID FLIESBUZZ = 2861951651U;
+        static const AkUniqueID GAMEPLAY_MUSIC = 2322231365U;
+        static const AkUniqueID GETPOINTS = 35801126U;
+        static const AkUniqueID HEALTHY = 2874639328U;
+        static const AkUniqueID POISONED = 1467164614U;
+        static const AkUniqueID POWEREDDOWN = 1041311963U;
+        static const AkUniqueID POWEREDUP = 4231327868U;
+        static const AkUniqueID TONGUECLICK = 3165878815U;
+    } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace POISONED
+        {
+            static const AkUniqueID GROUP = 1467164614U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PC_HEALTHY = 1467097536U;
+                static const AkUniqueID PC_POISONED = 626737702U;
+            } // namespace STATE
+        } // namespace POISONED
+
+        namespace POWERUP
+        {
+            static const AkUniqueID GROUP = 3950429679U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PC_POWEREDDOWN = 3783295931U;
+                static const AkUniqueID PC_POWEREDUP = 51599964U;
+            } // namespace STATE
+        } // namespace POWERUP
+
+    } // namespace STATES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

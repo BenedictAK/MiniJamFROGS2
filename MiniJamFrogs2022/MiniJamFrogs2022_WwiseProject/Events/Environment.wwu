@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9FE0755D-6241-4085-A149-17953B07B937}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Environment" ID="{9FE0755D-6241-4085-A149-17953B07B937}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="FliesBuzz" ID="{28188ED8-0CB7-4276-ADB5-E52EB0355682}">
+					<ChildrenList>
+						<Action Name="" ID="{6B0BC488-443A-46D2-BAA3-CC8C3F9244A4}" ShortID="378178772">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flies" ID="{5B44E3B7-93AB-4DC5-A293-0DB47E3E1AC6}" WorkUnitID="{197E2A76-F246-4F20-92ED-5A76ECD8A580}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

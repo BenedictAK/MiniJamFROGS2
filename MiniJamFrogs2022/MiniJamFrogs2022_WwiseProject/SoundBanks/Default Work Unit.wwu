@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{140A79F7-27D1-4278-8221-25244A6B996B}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{140A79F7-27D1-4278-8221-25244A6B996B}" PersistMode="Standalone">
-			<ChildrenList>
-				<WorkUnit Name="Music" ID="{C6EB8012-C50E-4CAF-9FFE-9E6D7C4130DD}" PersistMode="Reference"/>
-				<WorkUnit Name="SFX" ID="{5D7A2BF7-FADA-4F3C-80E9-9917821FA732}" PersistMode="Reference"/>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{140A79F7-27D1-4278-8221-25244A6B996B}" PersistMode="Standalone"/>
 	</SoundBanks>
 </WwiseDocument>

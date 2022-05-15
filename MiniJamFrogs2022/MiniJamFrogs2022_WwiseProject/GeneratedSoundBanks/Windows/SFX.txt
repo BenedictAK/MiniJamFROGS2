@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	35801126	GetPoints			\PC_Frog\GetPoints	
+	1041311963	PoweredDown			\PC_Frog\PoweredDown	
+	1467164614	Poisoned			\PC_Frog\Poisoned	
+	2874639328	Healthy			\PC_Frog\Healthy	
+	3165878815	TongueClick			\PC_Frog\TongueClick	
+	4231327868	PoweredUp			\PC_Frog\PoweredUp	
+

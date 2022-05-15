@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE5EC748-B280-47C1-A531-9C6E52B96F5E}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="PC_Frog" ID="{CE5EC748-B280-47C1-A531-9C6E52B96F5E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TongueClick" ID="{3CDD0116-1506-4503-8913-3D4FD4CF0590}">
+					<ChildrenList>
+						<Action Name="" ID="{ACCC1309-D2E1-4916-A708-B806A165FA77}" ShortID="849877022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tongue" ID="{C2535484-6E9D-4299-A3E4-0722F234B9BF}" WorkUnitID="{7640F0DB-44BE-41DE-B2F0-19E2D6924567}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PoweredUp" ID="{A65E2478-3D1C-4EF8-85C6-EFF21C576C5B}">
+					<ChildrenList>
+						<Action Name="" ID="{9799AF6E-34A3-47F3-A8EB-610023A97855}" ShortID="1040000259">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PC_PoweredUp" ID="{830FBB2A-6E8F-4CC6-96DF-0786861C9D2E}" WorkUnitID="{F006A514-8348-4DE1-9385-C41206A2F623}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F188950C-7531-417B-95F9-0C43083A5AD9}" ShortID="1031718710">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PCPoweredUp" ID="{CF890C23-8F0A-45BD-A081-374B9A5188ED}" WorkUnitID="{7640F0DB-44BE-41DE-B2F0-19E2D6924567}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PoweredDown" ID="{16DF8E05-7411-49BE-AA4A-D4C7B224DD18}">
+					<ChildrenList>
+						<Action Name="" ID="{050A01A3-B0B0-45C5-B0E3-C498760BA27D}" ShortID="98935703">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PC_PoweredDown" ID="{91A7C604-ECEB-4D12-AE99-42305E7FC863}" WorkUnitID="{F006A514-8348-4DE1-9385-C41206A2F623}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Poisoned" ID="{8EAC3089-2B07-4CA2-8087-FD9E0A0898CD}">
+					<ChildrenList>
+						<Action Name="" ID="{F93831B0-E9C2-487D-8C24-42FD05AAD316}" ShortID="721753179">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PC_Poisoned" ID="{FB57DB0F-6375-491F-818D-2D008BA15A95}" WorkUnitID="{F006A514-8348-4DE1-9385-C41206A2F623}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F7B066ED-FDFA-4EAC-B09D-3D0DA6672A8E}" ShortID="308143718">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PCPoisoned" ID="{DDBDFD26-E3C2-4485-9386-66B49C497E22}" WorkUnitID="{7640F0DB-44BE-41DE-B2F0-19E2D6924567}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Healthy" ID="{66CA4FFA-62D7-41E3-9457-83393C3972C3}">
+					<ChildrenList>
+						<Action Name="" ID="{C72665C6-829E-4B75-8DE3-886B750F1B8D}" ShortID="1062653186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PC_Healthy" ID="{BC22916F-2C16-42AA-A771-243A7FF12353}" WorkUnitID="{F006A514-8348-4DE1-9385-C41206A2F623}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GetPoints" ID="{5C1EA944-3FE4-4DB8-9732-B7084B469250}">
+					<ChildrenList>
+						<Action Name="" ID="{7D6E7B34-071D-436D-8944-857D311BF960}" ShortID="317218188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PointsAcquired" ID="{2067F73A-9803-418D-B4FF-BC6364120A37}" WorkUnitID="{7640F0DB-44BE-41DE-B2F0-19E2D6924567}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

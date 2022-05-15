@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{5D7A2BF7-FADA-4F3C-80E9-9917821FA732}" SchemaVersion="103" RootDocumentID="{140A79F7-27D1-4278-8221-25244A6B996B}" ParentDocumentID="{140A79F7-27D1-4278-8221-25244A6B996B}">
+<WwiseDocument Type="WorkUnit" ID="{5D7A2BF7-FADA-4F3C-80E9-9917821FA732}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="SFX" ID="{5D7A2BF7-FADA-4F3C-80E9-9917821FA732}" OwnerID="{140A79F7-27D1-4278-8221-25244A6B996B}" PersistMode="Nested">
+		<WorkUnit Name="SFX" ID="{5D7A2BF7-FADA-4F3C-80E9-9917821FA732}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{99E83445-0288-4E78-A773-BACEC1CB5F1C}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Healthy" ID="{66CA4FFA-62D7-41E3-9457-83393C3972C3}" WorkUnitID="{CE5EC748-B280-47C1-A531-9C6E52B96F5E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TongueClick" ID="{3CDD0116-1506-4503-8913-3D4FD4CF0590}" WorkUnitID="{CE5EC748-B280-47C1-A531-9C6E52B96F5E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PoweredDown" ID="{16DF8E05-7411-49BE-AA4A-D4C7B224DD18}" WorkUnitID="{CE5EC748-B280-47C1-A531-9C6E52B96F5E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Poisoned" ID="{8EAC3089-2B07-4CA2-8087-FD9E0A0898CD}" WorkUnitID="{CE5EC748-B280-47C1-A531-9C6E52B96F5E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GetPoints" ID="{5C1EA944-3FE4-4DB8-9732-B7084B469250}" WorkUnitID="{CE5EC748-B280-47C1-A531-9C6E52B96F5E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PoweredUp" ID="{A65E2478-3D1C-4EF8-85C6-EFF21C576C5B}" WorkUnitID="{CE5EC748-B280-47C1-A531-9C6E52B96F5E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Environment" ID="{E353D425-0E74-45F8-9B72-4409942EED67}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="FliesBuzz" ID="{28188ED8-0CB7-4276-ADB5-E52EB0355682}" WorkUnitID="{9FE0755D-6241-4085-A149-17953B07B937}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

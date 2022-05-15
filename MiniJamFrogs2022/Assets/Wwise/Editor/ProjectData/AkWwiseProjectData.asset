@@ -66,23 +66,20 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f7790a14d1277842822125244a6b996b
     GuidInternal: 
-    m_lastTime: -8585491363065973876
+    m_lastTime: -8585489675318868312
     List: []
   - PhysicalPath: SoundBanks\Music.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
       guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: f7790a14d1277842822125244a6b996b
     - ElementName: Music
       ObjectType: 12
       guid: 1280ebc60ec5af4c9ffe9e6d7c4130dd
-    ParentPath: SoundBanks\Default Work Unit\Music
+    ParentPath: SoundBanks\Music
     guid: 1280ebc60ec5af4c9ffe9e6d7c4130dd
     GuidInternal: 
-    m_lastTime: -8585491363065884176
+    m_lastTime: -8585489662608648354
     List:
     - name: Music
       guid: 914916433a81454a8b5e8a7568dbd3b2
@@ -91,31 +88,25 @@ MonoBehaviour:
       - ElementName: SoundBanks
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: f7790a14d1277842822125244a6b996b
       - ElementName: Music
         ObjectType: 12
         guid: 1280ebc60ec5af4c9ffe9e6d7c4130dd
       - ElementName: Music
         ObjectType: 7
         guid: 914916433a81454a8b5e8a7568dbd3b2
-      Path: SoundBanks\Default Work Unit\Music\Music
+      Path: SoundBanks\Music\Music
   - PhysicalPath: SoundBanks\SFX.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
       guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: f7790a14d1277842822125244a6b996b
     - ElementName: SFX
       ObjectType: 12
       guid: f72b7a5ddafa3c4f80e99917821fa732
-    ParentPath: SoundBanks\Default Work Unit\SFX
+    ParentPath: SoundBanks\SFX
     guid: f72b7a5ddafa3c4f80e99917821fa732
     GuidInternal: 
-    m_lastTime: -8585491363065924043
+    m_lastTime: -8585489657371418693
     List:
     - name: Environment
       guid: 25d453e3740ef8459b724409942eed67
@@ -124,16 +115,13 @@ MonoBehaviour:
       - ElementName: SoundBanks
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: f7790a14d1277842822125244a6b996b
       - ElementName: SFX
         ObjectType: 12
         guid: f72b7a5ddafa3c4f80e99917821fa732
       - ElementName: Environment
         ObjectType: 7
         guid: 25d453e3740ef8459b724409942eed67
-      Path: SoundBanks\Default Work Unit\SFX\Environment
+      Path: SoundBanks\SFX\Environment
     - name: SFX
       guid: 4534e8998802784ea773bacec1cb5f1c
       id: 393239870
@@ -141,16 +129,13 @@ MonoBehaviour:
       - ElementName: SoundBanks
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: f7790a14d1277842822125244a6b996b
       - ElementName: SFX
         ObjectType: 12
         guid: f72b7a5ddafa3c4f80e99917821fa732
       - ElementName: SFX
         ObjectType: 7
         guid: 4534e8998802784ea773bacec1cb5f1c
-      Path: SoundBanks\Default Work Unit\SFX\SFX
+      Path: SoundBanks\SFX\SFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -165,6 +150,181 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585491382921224798
     List: []
+  - PhysicalPath: Events\Environment.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Environment
+      ObjectType: 12
+      guid: 5d75e09f41628540a14917953b07b937
+    ParentPath: Events\Environment
+    guid: 5d75e09f41628540a14917953b07b937
+    GuidInternal: 
+    m_lastTime: -8585489657371468528
+    List:
+    - name: FliesBuzz
+      guid: d88e1828b70c7642adb5e52eb0355682
+      id: 2861951651
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Environment
+        ObjectType: 12
+        guid: 5d75e09f41628540a14917953b07b937
+      - ElementName: FliesBuzz
+        ObjectType: 3
+        guid: d88e1828b70c7642adb5e52eb0355682
+      Path: Events\Environment\FliesBuzz
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Music
+      ObjectType: 12
+      guid: 82e424e37009f941a33cbc522944f932
+    ParentPath: Events\Music
+    guid: 82e424e37009f941a33cbc522944f932
+    GuidInternal: 
+    m_lastTime: -8585489662608678253
+    List:
+    - name: Gameplay_Music
+      guid: 45afaff4f82a4f47afa499530f41b04e
+      id: 2322231365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 82e424e37009f941a33cbc522944f932
+      - ElementName: Gameplay_Music
+        ObjectType: 3
+        guid: 45afaff4f82a4f47afa499530f41b04e
+      Path: Events\Music\Gameplay_Music
+      maxAttenuation: 0
+      maxDuration: 1
+      minDuration: 1
+  - PhysicalPath: Events\PC_Frog.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: PC_Frog
+      ObjectType: 12
+      guid: 48c75ece80b2c147a5319c6e52b96f5e
+    ParentPath: Events\PC_Frog
+    guid: 48c75ece80b2c147a5319c6e52b96f5e
+    GuidInternal: 
+    m_lastTime: -8585489657640754557
+    List:
+    - name: GetPoints
+      guid: 44a91e5ce43fb84d9732b7084b469250
+      id: 35801126
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PC_Frog
+        ObjectType: 12
+        guid: 48c75ece80b2c147a5319c6e52b96f5e
+      - ElementName: GetPoints
+        ObjectType: 3
+        guid: 44a91e5ce43fb84d9732b7084b469250
+      Path: Events\PC_Frog\GetPoints
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Healthy
+      guid: fa4fca66d762e341945783393c3972c3
+      id: 2874639328
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PC_Frog
+        ObjectType: 12
+        guid: 48c75ece80b2c147a5319c6e52b96f5e
+      - ElementName: Healthy
+        ObjectType: 3
+        guid: fa4fca66d762e341945783393c3972c3
+      Path: Events\PC_Frog\Healthy
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Poisoned
+      guid: 8930ac8e072ba24c8087fd9e0a0898cd
+      id: 1467164614
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PC_Frog
+        ObjectType: 12
+        guid: 48c75ece80b2c147a5319c6e52b96f5e
+      - ElementName: Poisoned
+        ObjectType: 3
+        guid: 8930ac8e072ba24c8087fd9e0a0898cd
+      Path: Events\PC_Frog\Poisoned
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PoweredDown
+      guid: 058edf161174be49aa4ad4c7b224dd18
+      id: 1041311963
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PC_Frog
+        ObjectType: 12
+        guid: 48c75ece80b2c147a5319c6e52b96f5e
+      - ElementName: PoweredDown
+        ObjectType: 3
+        guid: 058edf161174be49aa4ad4c7b224dd18
+      Path: Events\PC_Frog\PoweredDown
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PoweredUp
+      guid: 78245ea61c3df84e85c6eff21c576c5b
+      id: 4231327868
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PC_Frog
+        ObjectType: 12
+        guid: 48c75ece80b2c147a5319c6e52b96f5e
+      - ElementName: PoweredUp
+        ObjectType: 3
+        guid: 78245ea61c3df84e85c6eff21c576c5b
+      Path: Events\PC_Frog\PoweredUp
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: TongueClick
+      guid: 1601dd3c0615034589133d4fd4cf0590
+      id: 3165878815
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: PC_Frog
+        ObjectType: 12
+        guid: 48c75ece80b2c147a5319c6e52b96f5e
+      - ElementName: TongueClick
+        ObjectType: 3
+        guid: 1601dd3c0615034589133d4fd4cf0590
+      Path: Events\PC_Frog\TongueClick
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -191,8 +351,153 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 8654b0a822c81947afb591d2db529501
     GuidInternal: 
-    m_lastTime: -8585491382920975627
+    m_lastTime: -8585489659086339332
     List: []
+  - PhysicalPath: States\Frog_States.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Frog_States
+      ObjectType: 12
+      guid: 14a506f04883e14d9385c41206a2f623
+    ParentPath: States\Frog_States
+    guid: 14a506f04883e14d9385c41206a2f623
+    GuidInternal: 
+    m_lastTime: -8585489658015298616
+    List:
+    - name: Poisoned
+      guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
+      id: 1467164614
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Frog_States
+        ObjectType: 12
+        guid: 14a506f04883e14d9385c41206a2f623
+      - ElementName: Poisoned
+        ObjectType: 9
+        guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
+      Path: States\Frog_States\Poisoned
+      values:
+      - name: None
+        guid: 5d1a6ac37cdcc94f9d7e8fedf29c9117
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Frog_States
+          ObjectType: 12
+          guid: 14a506f04883e14d9385c41206a2f623
+        - ElementName: Poisoned
+          ObjectType: 9
+          guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
+        - ElementName: None
+          ObjectType: 8
+          guid: 5d1a6ac37cdcc94f9d7e8fedf29c9117
+      - name: PC_Healthy
+        guid: 6f9122bc162caa42a771243a7ff12353
+        id: 1467097536
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Frog_States
+          ObjectType: 12
+          guid: 14a506f04883e14d9385c41206a2f623
+        - ElementName: Poisoned
+          ObjectType: 9
+          guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
+        - ElementName: PC_Healthy
+          ObjectType: 8
+          guid: 6f9122bc162caa42a771243a7ff12353
+      - name: PC_Poisoned
+        guid: 0fdb57fb75631f49818d2d008ba15a95
+        id: 626737702
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Frog_States
+          ObjectType: 12
+          guid: 14a506f04883e14d9385c41206a2f623
+        - ElementName: Poisoned
+          ObjectType: 9
+          guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
+        - ElementName: PC_Poisoned
+          ObjectType: 8
+          guid: 0fdb57fb75631f49818d2d008ba15a95
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PowerUp
+      guid: 7ec24be676c7b94bb5543167f26455b5
+      id: 3950429679
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Frog_States
+        ObjectType: 12
+        guid: 14a506f04883e14d9385c41206a2f623
+      - ElementName: PowerUp
+        ObjectType: 9
+        guid: 7ec24be676c7b94bb5543167f26455b5
+      Path: States\Frog_States\PowerUp
+      values:
+      - name: None
+        guid: 749d364672605749bb593c64a72b7992
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Frog_States
+          ObjectType: 12
+          guid: 14a506f04883e14d9385c41206a2f623
+        - ElementName: PowerUp
+          ObjectType: 9
+          guid: 7ec24be676c7b94bb5543167f26455b5
+        - ElementName: None
+          ObjectType: 8
+          guid: 749d364672605749bb593c64a72b7992
+      - name: PC_PoweredDown
+        guid: 04c6a791ebec124dae9942305e7fc863
+        id: 3783295931
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Frog_States
+          ObjectType: 12
+          guid: 14a506f04883e14d9385c41206a2f623
+        - ElementName: PowerUp
+          ObjectType: 9
+          guid: 7ec24be676c7b94bb5543167f26455b5
+        - ElementName: PC_PoweredDown
+          ObjectType: 8
+          guid: 04c6a791ebec124dae9942305e7fc863
+      - name: PC_PoweredUp
+        guid: 2abb0f838f6ec64c96df0786861c9d2e
+        id: 51599964
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Frog_States
+          ObjectType: 12
+          guid: 14a506f04883e14d9385c41206a2f623
+        - ElementName: PowerUp
+          ObjectType: 9
+          guid: 7ec24be676c7b94bb5543167f26455b5
+        - ElementName: PC_PoweredUp
+          ObjectType: 8
+          guid: 2abb0f838f6ec64c96df0786861c9d2e
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -222,7 +527,7 @@ MonoBehaviour:
     m_lastTime: -8585491382921125131
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0a000000
+  ExpandedWaapiItemIds: 0a0000000c0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
