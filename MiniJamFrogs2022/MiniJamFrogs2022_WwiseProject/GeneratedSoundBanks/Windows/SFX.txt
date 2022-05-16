@@ -1,8 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
 	35801126	GetPoints			\PC_Frog\GetPoints	
-	1041311963	PoweredDown			\PC_Frog\PoweredDown	
 	1467164614	Poisoned			\PC_Frog\Poisoned	
-	2874639328	Healthy			\PC_Frog\Healthy	
 	3165878815	TongueClick			\PC_Frog\TongueClick	
 	4231327868	PoweredUp			\PC_Frog\PoweredUp	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	84375137	PC_GetPoints_02_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_GetPoints_02_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\PointsAcquired\PC_GetPoints_02_Mn		115264
+	158195502	PC_GetPoints_04_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_GetPoints_04_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\PointsAcquired\PC_GetPoints_04_Mn		131052
+	463542665	PC_Tongue_01_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_Tongue_01_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\Tongue\PC_Tongue_01_Mn		44864
+	567147736	PCPoweredUp	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_PoweredUp_01_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\PCPoweredUp		83264
+	679477377	PC_GetPoints_05_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_GetPoints_05_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\PointsAcquired\PC_GetPoints_05_Mn		116922
+	693773751	PC_Tongue_05_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_Tongue_05_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\Tongue\PC_Tongue_05_Mn		41664
+	695322732	PC_Tongue_02_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_Tongue_02_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\Tongue\PC_Tongue_02_Mn		55546
+	772843487	PCPoisoned	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_Poisoned_01_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\PCPoisoned		140350
+	795099696	PC_GetPoints_03_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_GetPoints_03_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\PointsAcquired\PC_GetPoints_03_Mn		99830
+	922875985	PC_Tongue_03_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_Tongue_03_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\Tongue\PC_Tongue_03_Mn		51264
+	1017490446	PC_Tongue_04_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_Tongue_04_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\Tongue\PC_Tongue_04_Mn		41664
+	1064473929	PC_GetPoints_01_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\PC_GetPoints_01_Mn_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\Player_Character\PointsAcquired\PC_GetPoints_01_Mn		76864
 

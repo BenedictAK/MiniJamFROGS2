@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 3c09e7527ca2ea49b77b256972e6f484
     GuidInternal: 
-    m_lastTime: -8585491382921025471
+    m_lastTime: -8585489497639152694
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,34 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music Bus
+      guid: db65478386f5c449930e5cb5e011dd22
+      id: 3127962312
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3c09e7527ca2ea49b77b256972e6f484
+      - ElementName: Music Bus
+        ObjectType: 2
+        guid: db65478386f5c449930e5cb5e011dd22
+      Path: Master-Mixer Hierarchy\Default Work Unit\Music Bus
+    - name: SFX Bus
+      guid: ef72ae2ba35bfe4a8be3133d9e74726d
+      id: 1502772432
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3c09e7527ca2ea49b77b256972e6f484
+      - ElementName: SFX Bus
+        ObjectType: 2
+        guid: ef72ae2ba35bfe4a8be3133d9e74726d
+      Path: Master-Mixer Hierarchy\Default Work Unit\SFX Bus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -106,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\SFX
     guid: f72b7a5ddafa3c4f80e99917821fa732
     GuidInternal: 
-    m_lastTime: -8585489657371418693
+    m_lastTime: -8585489478907588064
     List:
     - name: Environment
       guid: 25d453e3740ef8459b724409942eed67
@@ -161,7 +189,7 @@ MonoBehaviour:
     ParentPath: Events\Environment
     guid: 5d75e09f41628540a14917953b07b937
     GuidInternal: 
-    m_lastTime: -8585489657371468528
+    m_lastTime: -8585489474315785309
     List:
     - name: FliesBuzz
       guid: d88e1828b70c7642adb5e52eb0355682
@@ -191,7 +219,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 82e424e37009f941a33cbc522944f932
     GuidInternal: 
-    m_lastTime: -8585489662608678253
+    m_lastTime: -8585489501354345892
     List:
     - name: Gameplay_Music
       guid: 45afaff4f82a4f47afa499530f41b04e
@@ -208,8 +236,8 @@ MonoBehaviour:
         guid: 45afaff4f82a4f47afa499530f41b04e
       Path: Events\Music\Gameplay_Music
       maxAttenuation: 0
-      maxDuration: 1
-      minDuration: 1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\PC_Frog.wwu
     PathAndIcons:
     - ElementName: Events
@@ -221,7 +249,7 @@ MonoBehaviour:
     ParentPath: Events\PC_Frog
     guid: 48c75ece80b2c147a5319c6e52b96f5e
     GuidInternal: 
-    m_lastTime: -8585489657640754557
+    m_lastTime: -8585489479303609361
     List:
     - name: GetPoints
       guid: 44a91e5ce43fb84d9732b7084b469250
@@ -238,25 +266,8 @@ MonoBehaviour:
         guid: 44a91e5ce43fb84d9732b7084b469250
       Path: Events\PC_Frog\GetPoints
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Healthy
-      guid: fa4fca66d762e341945783393c3972c3
-      id: 2874639328
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PC_Frog
-        ObjectType: 12
-        guid: 48c75ece80b2c147a5319c6e52b96f5e
-      - ElementName: Healthy
-        ObjectType: 3
-        guid: fa4fca66d762e341945783393c3972c3
-      Path: Events\PC_Frog\Healthy
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.364458
+      minDuration: 0.8
     - name: Poisoned
       guid: 8930ac8e072ba24c8087fd9e0a0898cd
       id: 1467164614
@@ -272,25 +283,8 @@ MonoBehaviour:
         guid: 8930ac8e072ba24c8087fd9e0a0898cd
       Path: Events\PC_Frog\Poisoned
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: PoweredDown
-      guid: 058edf161174be49aa4ad4c7b224dd18
-      id: 1041311963
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: PC_Frog
-        ObjectType: 12
-        guid: 48c75ece80b2c147a5319c6e52b96f5e
-      - ElementName: PoweredDown
-        ObjectType: 3
-        guid: 058edf161174be49aa4ad4c7b224dd18
-      Path: Events\PC_Frog\PoweredDown
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.461313
+      minDuration: 1.461313
     - name: PoweredUp
       guid: 78245ea61c3df84e85c6eff21c576c5b
       id: 4231327868
@@ -306,8 +300,8 @@ MonoBehaviour:
         guid: 78245ea61c3df84e85c6eff21c576c5b
       Path: Events\PC_Frog\PoweredUp
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.866667
+      minDuration: 0.866667
     - name: TongueClick
       guid: 1601dd3c0615034589133d4fd4cf0590
       id: 3165878815
@@ -323,8 +317,8 @@ MonoBehaviour:
         guid: 1601dd3c0615034589133d4fd4cf0590
       Path: Events\PC_Frog\TongueClick
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.578606
+      minDuration: 0.432833
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -353,151 +347,6 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585489659086339332
     List: []
-  - PhysicalPath: States\Frog_States.wwu
-    PathAndIcons:
-    - ElementName: States
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Frog_States
-      ObjectType: 12
-      guid: 14a506f04883e14d9385c41206a2f623
-    ParentPath: States\Frog_States
-    guid: 14a506f04883e14d9385c41206a2f623
-    GuidInternal: 
-    m_lastTime: -8585489658015298616
-    List:
-    - name: Poisoned
-      guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
-      id: 1467164614
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Frog_States
-        ObjectType: 12
-        guid: 14a506f04883e14d9385c41206a2f623
-      - ElementName: Poisoned
-        ObjectType: 9
-        guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
-      Path: States\Frog_States\Poisoned
-      values:
-      - name: None
-        guid: 5d1a6ac37cdcc94f9d7e8fedf29c9117
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Frog_States
-          ObjectType: 12
-          guid: 14a506f04883e14d9385c41206a2f623
-        - ElementName: Poisoned
-          ObjectType: 9
-          guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
-        - ElementName: None
-          ObjectType: 8
-          guid: 5d1a6ac37cdcc94f9d7e8fedf29c9117
-      - name: PC_Healthy
-        guid: 6f9122bc162caa42a771243a7ff12353
-        id: 1467097536
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Frog_States
-          ObjectType: 12
-          guid: 14a506f04883e14d9385c41206a2f623
-        - ElementName: Poisoned
-          ObjectType: 9
-          guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
-        - ElementName: PC_Healthy
-          ObjectType: 8
-          guid: 6f9122bc162caa42a771243a7ff12353
-      - name: PC_Poisoned
-        guid: 0fdb57fb75631f49818d2d008ba15a95
-        id: 626737702
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Frog_States
-          ObjectType: 12
-          guid: 14a506f04883e14d9385c41206a2f623
-        - ElementName: Poisoned
-          ObjectType: 9
-          guid: 3c96fe13aabb5f4f9f8cfc210f82c7f6
-        - ElementName: PC_Poisoned
-          ObjectType: 8
-          guid: 0fdb57fb75631f49818d2d008ba15a95
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: PowerUp
-      guid: 7ec24be676c7b94bb5543167f26455b5
-      id: 3950429679
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Frog_States
-        ObjectType: 12
-        guid: 14a506f04883e14d9385c41206a2f623
-      - ElementName: PowerUp
-        ObjectType: 9
-        guid: 7ec24be676c7b94bb5543167f26455b5
-      Path: States\Frog_States\PowerUp
-      values:
-      - name: None
-        guid: 749d364672605749bb593c64a72b7992
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Frog_States
-          ObjectType: 12
-          guid: 14a506f04883e14d9385c41206a2f623
-        - ElementName: PowerUp
-          ObjectType: 9
-          guid: 7ec24be676c7b94bb5543167f26455b5
-        - ElementName: None
-          ObjectType: 8
-          guid: 749d364672605749bb593c64a72b7992
-      - name: PC_PoweredDown
-        guid: 04c6a791ebec124dae9942305e7fc863
-        id: 3783295931
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Frog_States
-          ObjectType: 12
-          guid: 14a506f04883e14d9385c41206a2f623
-        - ElementName: PowerUp
-          ObjectType: 9
-          guid: 7ec24be676c7b94bb5543167f26455b5
-        - ElementName: PC_PoweredDown
-          ObjectType: 8
-          guid: 04c6a791ebec124dae9942305e7fc863
-      - name: PC_PoweredUp
-        guid: 2abb0f838f6ec64c96df0786861c9d2e
-        id: 51599964
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Frog_States
-          ObjectType: 12
-          guid: 14a506f04883e14d9385c41206a2f623
-        - ElementName: PowerUp
-          ObjectType: 9
-          guid: 7ec24be676c7b94bb5543167f26455b5
-        - ElementName: PC_PoweredUp
-          ObjectType: 8
-          guid: 2abb0f838f6ec64c96df0786861c9d2e
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -524,11 +373,53 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 63816c5c74edc14a80c3f60280399a3f
     GuidInternal: 
-    m_lastTime: -8585491382921125131
-    List: []
+    m_lastTime: -8585489511242737681
+    List:
+    - name: HighScoreTrig
+      guid: a1de96c1162e5b459cefe67dfce35398
+      id: 3790298535
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 63816c5c74edc14a80c3f60280399a3f
+      - ElementName: HighScoreTrig
+        ObjectType: 14
+        guid: a1de96c1162e5b459cefe67dfce35398
+      Path: Triggers\Default Work Unit\HighScoreTrig
+    - name: PoisonTrig
+      guid: 46469f542fee5c45b64f540cf2677354
+      id: 1056460563
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 63816c5c74edc14a80c3f60280399a3f
+      - ElementName: PoisonTrig
+        ObjectType: 14
+        guid: 46469f542fee5c45b64f540cf2677354
+      Path: Triggers\Default Work Unit\PoisonTrig
+    - name: UpgradeTrig
+      guid: 450d9c751f90e742b651112ebf00bffb
+      id: 4107390049
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 63816c5c74edc14a80c3f60280399a3f
+      - ElementName: UpgradeTrig
+        ObjectType: 14
+        guid: 450d9c751f90e742b651112ebf00bffb
+      Path: Triggers\Default Work Unit\UpgradeTrig
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0a0000000c0000000e000000
-  AutoSyncSelection: 0
+  ExpandedWaapiItemIds: 01000000030000000400000005000000090000000a0000000c0000000e0000001a0000001c0000001e0000002a000000
+  AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 

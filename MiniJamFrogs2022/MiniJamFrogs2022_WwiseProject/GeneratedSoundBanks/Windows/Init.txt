@@ -1,16 +1,6 @@
-State Group	ID	Name			Wwise Object Path	Notes
-	1467164614	Poisoned			\Frog_States\Poisoned	
-	3950429679	PowerUp			\Frog_States\PowerUp	
-
-State	ID	Name	State Group			Notes
-	626737702	PC_Poisoned	Poisoned			
-	748895195	None	Poisoned			
-	1467097536	PC_Healthy	Poisoned			
-	51599964	PC_PoweredUp	PowerUp			
-	748895195	None	PowerUp			
-	3783295931	PC_PoweredDown	PowerUp			
-
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	1502772432	SFX Bus			\Default Work Unit\SFX Bus	
+	3127962312	Music Bus			\Default Work Unit\Music Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5C6C8163-ED74-4AC1-80C3-F60280399A3F}" SchemaVersion="103">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{5C6C8163-ED74-4AC1-80C3-F60280399A3F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5C6C8163-ED74-4AC1-80C3-F60280399A3F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="HighScoreTrig" ID="{C196DEA1-2E16-455B-9CEF-E67DFCE35398}"/>
+				<Trigger Name="PoisonTrig" ID="{549F4646-EE2F-455C-B64F-540CF2677354}"/>
+				<Trigger Name="UpgradeTrig" ID="{759C0D45-901F-42E7-B651-112EBF00BFFB}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

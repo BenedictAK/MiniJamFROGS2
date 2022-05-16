@@ -8,7 +8,7 @@
 						<Action Name="" ID="{E2B57A95-3AAC-4917-9C12-1B9D9AF12B4E}" ShortID="893282758">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="GameplayMusic" ID="{D973FD18-E1D9-489B-A75C-E6569EA22F82}" WorkUnitID="{0A2959B9-7BCB-453E-B712-EB972E657CB5}"/>
+									<ObjectRef Name="MainTheme" ID="{2B654101-55CD-4BEF-858C-27A3DC31BCFD}" WorkUnitID="{0A2959B9-7BCB-453E-B712-EB972E657CB5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

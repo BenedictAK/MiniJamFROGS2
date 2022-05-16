@@ -16,40 +16,17 @@ namespace AK
         static const AkUniqueID FLIESBUZZ = 2861951651U;
         static const AkUniqueID GAMEPLAY_MUSIC = 2322231365U;
         static const AkUniqueID GETPOINTS = 35801126U;
-        static const AkUniqueID HEALTHY = 2874639328U;
         static const AkUniqueID POISONED = 1467164614U;
-        static const AkUniqueID POWEREDDOWN = 1041311963U;
         static const AkUniqueID POWEREDUP = 4231327868U;
         static const AkUniqueID TONGUECLICK = 3165878815U;
     } // namespace EVENTS
 
-    namespace STATES
+    namespace TRIGGERS
     {
-        namespace POISONED
-        {
-            static const AkUniqueID GROUP = 1467164614U;
-
-            namespace STATE
-            {
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID PC_HEALTHY = 1467097536U;
-                static const AkUniqueID PC_POISONED = 626737702U;
-            } // namespace STATE
-        } // namespace POISONED
-
-        namespace POWERUP
-        {
-            static const AkUniqueID GROUP = 3950429679U;
-
-            namespace STATE
-            {
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID PC_POWEREDDOWN = 3783295931U;
-                static const AkUniqueID PC_POWEREDUP = 51599964U;
-            } // namespace STATE
-        } // namespace POWERUP
-
-    } // namespace STATES
+        static const AkUniqueID HIGHSCORETRIG = 3790298535U;
+        static const AkUniqueID POISONTRIG = 1056460563U;
+        static const AkUniqueID UPGRADETRIG = 4107390049U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {
@@ -62,6 +39,8 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC_BUS = 3127962312U;
+        static const AkUniqueID SFX_BUS = 1502772432U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

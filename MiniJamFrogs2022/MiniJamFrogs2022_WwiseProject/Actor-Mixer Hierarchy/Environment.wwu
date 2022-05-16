@@ -3,23 +3,9 @@
 	<AudioObjects>
 		<WorkUnit Name="Environment" ID="{197E2A76-F246-4F20-92ED-5A76ECD8A580}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Flies" ID="{5B44E3B7-93AB-4DC5-A293-0DB47E3E1AC6}" ShortID="344067621">
+				<Sound Name="ENV_FlyBuzz_01_Mn" ID="{69BCC40C-0737-4AC1-B0CE-EF814F3F6C77}" ShortID="923416292">
 					<PropertyList>
-						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{AA941FF4-2E9E-4122-9A28-67DD2B1EE4D2}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="2"/>
-											<Property Name="Min" Type="Real64" Value="-2"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -29,8 +15,20 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E7093C-A27C-49EA-B77B-256972E6F484}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ENV_FlyBuzz_01_Mn" ID="{83C16417-F061-4CD1-8AD7-1D130DC43E99}">
+							<Language>SFX</Language>
+							<AudioFile>ENV_FlyBuzz_01_Mn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="9654909"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
 					<ObjectLists/>
-				</RandomSequenceContainer>
+					<ActiveSourceList>
+						<ActiveSource Name="ENV_FlyBuzz_01_Mn" ID="{83C16417-F061-4CD1-8AD7-1D130DC43E99}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

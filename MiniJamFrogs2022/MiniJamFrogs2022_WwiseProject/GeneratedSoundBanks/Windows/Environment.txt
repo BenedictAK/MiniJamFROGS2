@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2861951651	FliesBuzz			\Environment\FliesBuzz	
 
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9654909	ENV_FlyBuzz_01_Mn	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Windows\SFX\ENV_FlyBuzz_01_Mn_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environment\ENV_FlyBuzz_01_Mn		2470664
+

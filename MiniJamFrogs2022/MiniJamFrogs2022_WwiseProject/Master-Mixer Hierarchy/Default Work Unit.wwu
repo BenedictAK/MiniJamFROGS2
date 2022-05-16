@@ -11,6 +11,22 @@
 					</ReferenceList>
 					<ObjectLists/>
 				</Bus>
+				<Bus Name="Music Bus" ID="{834765DB-F586-49C4-930E-5CB5E011DD22}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{162AE2C7-0B47-4F47-8F44-1826FB34A950}" WorkUnitID="{622E695B-A916-4FDF-8E2E-46FD5AA7116D}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="SFX Bus" ID="{2BAE72EF-5BA3-4AFE-8BE3-133D9E74726D}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{162AE2C7-0B47-4F47-8F44-1826FB34A950}" WorkUnitID="{622E695B-A916-4FDF-8E2E-46FD5AA7116D}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

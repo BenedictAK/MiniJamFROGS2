@@ -1,3 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2322231365	Gameplay_Music			\Music\Gameplay_Music	
 
+Trigger	ID	Name			Wwise Object Path	Notes
+	1056460563	PoisonTrig			\Default Work Unit\PoisonTrig	
+	3790298535	HighScoreTrig			\Default Work Unit\HighScoreTrig	
+	4107390049	UpgradeTrig			\Default Work Unit\UpgradeTrig	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	46434053	eMastered_Frog-Main-Theme_HD	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Mac\SFX\eMastered_Frog-Main-Theme_HD_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainTheme\GameplayMusic\eMastered_Frog-Main-Theme_HD		23307328
+	107256300	eMastered_Frog-poison_HD	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Mac\SFX\eMastered_Frog-poison_HD_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainTheme\eMastered_Frog-poison_HD\eMastered_Frog-poison_HD		4764736
+	623373321	eMastered_Frog-Upgrade-Theme_HD	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Mac\SFX\eMastered_Frog-Upgrade-Theme_HD_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainTheme\eMastered_Frog-Upgrade-Theme_HD\eMastered_Frog-Upgrade-Theme_HD		3598912
+	908507407	eMastered_Frog-High-Score_HD	D:\Project Work\Games\MiniJamFROGS2\MiniJamFrogs2022\MiniJamFrogs2022_WwiseProject\.cache\Mac\SFX\eMastered_Frog-High-Score_HD_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainTheme\eMastered_Frog-High-Score_HD\eMastered_Frog-High-Score_HD		972352
+

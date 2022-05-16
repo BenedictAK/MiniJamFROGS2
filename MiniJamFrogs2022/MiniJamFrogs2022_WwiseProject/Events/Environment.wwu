@@ -5,10 +5,35 @@
 			<ChildrenList>
 				<Event Name="FliesBuzz" ID="{28188ED8-0CB7-4276-ADB5-E52EB0355682}">
 					<ChildrenList>
-						<Action Name="" ID="{6B0BC488-443A-46D2-BAA3-CC8C3F9244A4}" ShortID="378178772">
+						<Action Name="" ID="{7F693AB7-4AFD-495F-B3D0-2BBE685FEB31}" ShortID="436834165">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8D7AA9A4-175D-42B0-9D19-7F7A81148183}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Flies" ID="{5B44E3B7-93AB-4DC5-A293-0DB47E3E1AC6}" WorkUnitID="{197E2A76-F246-4F20-92ED-5A76ECD8A580}"/>
+									<ObjectRef Name="ENV_FlyBuzz_01_Mn" ID="{69BCC40C-0737-4AC1-B0CE-EF814F3F6C77}" WorkUnitID="{197E2A76-F246-4F20-92ED-5A76ECD8A580}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6B0BC488-443A-46D2-BAA3-CC8C3F9244A4}" ShortID="378178772">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_FlyBuzz_01_Mn" ID="{69BCC40C-0737-4AC1-B0CE-EF814F3F6C77}" WorkUnitID="{197E2A76-F246-4F20-92ED-5A76ECD8A580}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
